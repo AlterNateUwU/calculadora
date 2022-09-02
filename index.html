@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="main-container">
+        <header>
+          <div id="reloj">
+            00 : 00 
+          </div>
+          <div>
+            <img id="up" src="./iconos/Notch.svg" alt="arriba">
+          </div>
+          <div>
+            <img id="right" src="./iconos/Right Side.svg" alt="right">
+          </div>
+        </header>
+        <div class="dark-white unwhite">
+          <img class="black" src="iconos/cambiar-fondo0.svg" alt="black" />
+          <img class="white" src="iconos/cambiar-fondo1.svg" alt="white" />
+        </div>
+
+        <div class="numbers">
+          <p class="number-opacity"></p>
+          <p class="number-unopacity"></p>
+        </div>
+        <div class="buttons">
+          <div id="borrar-todo" class="button gris">C</div>
+          <div id="masmenos" class="button gris">+/-</div>
+          <div id="porcentaje" class="button gris">%</div>
+          <div id="dividir" class="button blue">/</div>
+          <div id="siete" class="button gris-black">7</div>
+          <div id="ocho" class="button gris-black">8</div>
+          <div id="nueve" class="button gris-black">9</div>
+          <div id="multiplicar" class="button blue">*</div>
+          <div id="cuatro" class="button gris-black">4</div>
+          <div id="cinco" class="button gris-black">5</div>
+          <div id="seis" class="button gris-black">6</div>
+          <div id="restar" class="button blue">-</div>
+          <div id="uno" class="button gris-black">1</div>
+          <div id="dos" class="button gris-black">2</div>
+          <div id="tres" class="button gris-black">3</div>
+          <div id="sumar" class="button blue">+</div>
+          <div id="punto" class="button gris-black">.</div>
+          <div id="cero" class="button gris-black">0</div>
+          <div id="borrar-uno" class="button gris-black">
+            <img class="delete" src="iconos/borrar.svg" alt="delete" />
+          </div>
+          <div id="igual" class="button blue">=</div>
+        </div>
+        <img src="./iconos/Home Indicator (1).svg" id="down" alt="down">
+      </div>
+    </main>
+
+    <script defer src="app.js"></script>
+  </body>
+</html>
